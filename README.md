@@ -75,7 +75,7 @@ provided from [here][4]. The following `yaml` creates the requested docker servi
 
 ```yaml
 tp-link-plug-exporter:
-  container_name: : tp-link-plug-exporter
+  container_name: tp-link-plug-exporter
   image: fffonion/tplink-plug-exporter:latest
   ports:
     - 9233:9233
